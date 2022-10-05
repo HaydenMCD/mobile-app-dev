@@ -1,4 +1,4 @@
-package op.mobile.app.dev.mcdohr2.travelling.login
+package op.mobile.app.dev.mcdohr2.travelling.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,12 +7,12 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import op.mobile.app.dev.mcdohr2.travelling.R
 
-class LoginFragment : Fragment() {
+class HomeFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View {
-        return inflater.inflate(R.layout.fragment_login, container, false)
+    ): View? {
+        return inflater.inflate(R.layout.fragment_home, container, false)
     }
 }
