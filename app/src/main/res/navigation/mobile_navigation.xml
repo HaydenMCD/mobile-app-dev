@@ -44,7 +44,7 @@
 <!--    Signup Navigation    -->
     <fragment
         android:id="@+id/navigation_signup"
-        android:name="op.mobile.app.dev.mcdohr2.travelling.ui.login.SignupFragment"
+        android:name="op.mobile.app.dev.mcdohr2.travelling.ui.signup.SignupFragment"
         android:label="Signup"
         tools:layout="@layout/fragment_signup">
         <action

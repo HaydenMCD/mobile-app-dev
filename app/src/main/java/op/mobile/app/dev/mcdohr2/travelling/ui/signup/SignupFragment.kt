@@ -1,4 +1,4 @@
-package op.mobile.app.dev.mcdohr2.travelling.ui.login
+package op.mobile.app.dev.mcdohr2.travelling.ui.signup
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +8,6 @@ import android.widget.Button
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import op.mobile.app.dev.mcdohr2.travelling.R
-
 
 class SignupFragment: Fragment() {
     override fun onCreateView(
