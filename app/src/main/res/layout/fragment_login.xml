@@ -64,7 +64,7 @@
         tools:ignore="HardcodedText" />
 
     <Button
-        android:id="@+id/btn_Signup"
+        android:id="@+id/btn_signup"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
