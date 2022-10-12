@@ -3,20 +3,29 @@ package op.mobile.app.dev.mcdohr2.travelling.ui.home
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import kotlinx.coroutines.launch
+import op.mobile.app.dev.mcdohr2.travelling.Country
+import op.mobile.app.dev.mcdohr2.travelling.ServiceInstance.retrofitService
+import op.mobile.app.dev.mcdohr2.travelling.ServiceStatus
 
 class HomeViewModel : ViewModel() {
-    private val _count = MutableLiveData<Int>()
-    val count: LiveData<Int> get() = _count
+    private val _status = MutableLiveData<ServiceStatus>()
+    val status: LiveData<ServiceStatus> get() = _status
+
+    private val _response = MutableLiveData<List<Country>>()
+    val response: LiveData<List<Country>> get() = _response
 
     init {
-        reset()
-    }
-
-    fun plusOne() {
-        _count.value = _count.value?.plus(1)
-    }
-
-    fun reset() {
-        _count.value = 0
+        viewModelScope.launch {
+            _status.value = ServiceStatus.LOADING
+            try {
+                _response.value = retrofitService.getResponse()
+                _status.value = ServiceStatus.COMPLETE
+            } catch (e: Exception) {
+                _response.value = ArrayList()
+                _status.value = ServiceStatus.ERROR
+            }
+        }
     }
 }
