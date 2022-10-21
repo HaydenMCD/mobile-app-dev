@@ -70,7 +70,6 @@ class ServiceViewHolder(private var binding: RecyclerViewItemBinding) :
     }
 }
 
-
 class ServiceAdapter :
     ListAdapter<Country, ServiceViewHolder>(DiffCallback) {
     companion object DiffCallback : DiffUtil.ItemCallback<Country>() {

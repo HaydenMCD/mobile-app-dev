@@ -4,6 +4,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import androidx.room.ColumnInfo
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import kotlinx.coroutines.launch
 import op.mobile.app.dev.mcdohr2.travelling.Country
 import op.mobile.app.dev.mcdohr2.travelling.ServiceInstance.retrofitService
