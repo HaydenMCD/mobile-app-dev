@@ -34,21 +34,18 @@ class LoginFragment : Fragment() {
             val email = etEmailAddress.text.toString()
             val password = etPassword.text.toString()
 
-            // Set of validation rules
             when {
                 email.isEmpty() ->
                     etEmailAddress.error = "Email is required."
                 password.isEmpty() ->
                     etPassword.error = "Password is required"
                 else -> {
-                    login(email, password) // Call if validation rules pass
+                    login(email, password)
                 }
             }
         }
 
-        // You can set on click listeners for other Views
         tvSignUp.setOnClickListener {
-            // Navigate to the register screen. Check mobile_navigation.xml for this action
             val action =
                 LoginFragmentDirections
                     .actionLoginFragmentToSignupFragment()
@@ -65,16 +62,14 @@ class LoginFragment : Fragment() {
      * @param password the user's password
      */
     private fun login(email: String, password: String) {
-        auth.signInWithEmailAndPassword(email, password) // In-built Firebase authentication function
+        auth.signInWithEmailAndPassword(email, password)
             .addOnCompleteListener(requireActivity()) {
                 if (it.isSuccessful) {
-                    // Navigate to the home screen. Check mobile_navigation.xml for this action
                     val action =
                         LoginFragmentDirections
                             .actionLoginFragmentToHomeFragment()
                     view?.findNavController()?.navigate(action)
                 } else {
-                    // Indicate to the application user that their credentials may be incorrect
                     Toast.makeText(
                         activity,
                         "Failed to sign in.",
