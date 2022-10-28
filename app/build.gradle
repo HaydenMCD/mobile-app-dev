@@ -4,6 +4,7 @@ plugins {
     id 'androidx.navigation.safeargs' // Like above, without this, you can not navigate between screens
     id 'kotlin-kapt'
     id 'com.google.gms.google-services'
+    id 'kotlin-parcelize'
 }
 
 android {
@@ -17,6 +18,14 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        def secretProperties = new Properties()
+        if (rootProject.file("local.properties").exists()) {
+            rootProject.file("local.properties")?.withInputStream {
+                secretProperties.load(it)
+            }
+        }
+        resValue "string", "google_maps_key", (secretProperties["GOOGLE_MAPS_KEY"] ?: "")
     }
 
     buildTypes {
@@ -59,4 +68,6 @@ dependencies {
     implementation 'androidx.room:room-runtime:2.2.6'
     implementation 'androidx.room:room-ktx:2.2.6'
     kapt 'androidx.room:room-compiler:2.2.6'
+    implementation 'com.google.android.gms:play-services-maps:18.0.2'
+    implementation 'com.google.maps.android:android-maps-utils:0.5'
 }

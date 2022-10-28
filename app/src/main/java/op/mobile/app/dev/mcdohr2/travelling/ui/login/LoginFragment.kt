@@ -12,6 +12,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import com.google.firebase.auth.FirebaseAuth
 import op.mobile.app.dev.mcdohr2.travelling.R
+import op.mobile.app.dev.mcdohr2.travelling.ui.login.LoginFragmentDirections.*
 
 class LoginFragment : Fragment() {
     private lateinit var auth: FirebaseAuth
@@ -47,8 +48,7 @@ class LoginFragment : Fragment() {
 
         tvSignUp.setOnClickListener {
             val action =
-                LoginFragmentDirections
-                    .actionLoginFragmentToSignupFragment()
+                actionLoginFragmentToSignupFragment()
             view?.findNavController()?.navigate(action)
         }
 
@@ -66,8 +66,7 @@ class LoginFragment : Fragment() {
             .addOnCompleteListener(requireActivity()) {
                 if (it.isSuccessful) {
                     val action =
-                        LoginFragmentDirections
-                            .actionLoginFragmentToHomeFragment()
+                        actionLoginFragmentToHomeFragment()
                     view?.findNavController()?.navigate(action)
                 } else {
                     Toast.makeText(
