@@ -4,17 +4,21 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.widget.SwitchCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.lifecycleScope
+import androidx.navigation.findNavController
+import com.google.firebase.auth.FirebaseAuth
 import kotlinx.coroutines.launch
 import op.mobile.app.dev.mcdohr2.travelling.R
 import op.mobile.app.dev.mcdohr2.travelling.UIMode
 
 class SettingsFragment : Fragment() {
     private lateinit var swToggleDarkMode: SwitchCompat
+    private lateinit var auth: FirebaseAuth
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -22,11 +26,21 @@ class SettingsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
+        auth = FirebaseAuth.getInstance()
         val view: View = inflater.inflate(R.layout.fragment_settings, container, false)
         swToggleDarkMode = view.findViewById(R.id.sw_toggle_dark_mode)
 
         // Instantiating SettingsManager - passing in a context. For Fragments, we use requireContext()...for Activities, we use this
         val settingsManager = SettingsManager(requireContext())
+        val btnLogout: Button = view.findViewById(R.id.btn_logout)
+
+        btnLogout.setOnClickListener {
+            auth.signOut()
+
+            val action = SettingsFragmentDirections
+                .actionSettingsFragmentToLoginFragment()
+            view.findNavController().navigate(action)
+        }
 
         // Observe changes to UIMode
         settingsManager.uiModeFlow.asLiveData().observe(viewLifecycleOwner) {

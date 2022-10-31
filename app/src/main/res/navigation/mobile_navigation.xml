@@ -82,6 +82,9 @@
         <action
             android:id="@+id/action_settings_fragment_to_home_fragment"
             app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_settings_fragment_to_login_fragment"
+            app:destination="@id/navigation_login" />
     </fragment>
 
 </navigation>
