@@ -7,4 +7,5 @@ data class Country(
     val id: String,
     val name: String,
     val attractions: @RawValue List<Attraction>,
+    val flagImg: String,
 )
