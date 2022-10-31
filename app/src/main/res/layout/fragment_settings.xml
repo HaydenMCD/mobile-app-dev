@@ -20,7 +20,7 @@
             android:textSize="24sp"
             tools:ignore="MissingConstraints" />
 
-            <Switch
+            <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/sw_toggle_dark_mode"
                 android:layout_width="100dp"
                 android:layout_height="50dp"

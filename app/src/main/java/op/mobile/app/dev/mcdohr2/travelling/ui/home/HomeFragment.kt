@@ -27,20 +27,16 @@ class HomeFragment : Fragment(), IOnClickListener {
             inflater, R.layout.fragment_home, container, false
         )
 
-        val view = inflater.inflate(R.layout.fragment_home, container, false)
-        val btnSettings: Button = view.findViewById(R.id.btn_settings)
-
-        btnSettings.setOnClickListener {
-            val action =
-                HomeFragmentDirections.actionHomeFragmentToSettingsFragment()
-            view?.findNavController()?.navigate(action)
-        }
-
         val viewModel = ViewModelProvider(this).get(HomeViewModel::class.java)
         binding.apply {
             lifecycleOwner = viewLifecycleOwner
             homeViewModel = viewModel
             rvJobs.adapter = ServiceAdapter(this@HomeFragment)
+            btnSettings.setOnClickListener {
+                val action =
+                    HomeFragmentDirections.actionHomeFragmentToSettingsFragment()
+                findNavController().navigate(action)
+            }
             return root
         }
     }
