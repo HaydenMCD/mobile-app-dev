@@ -33,6 +33,9 @@
         <action
             android:id="@+id/action_home_fragment_to_settings_fragment"
             app:destination="@id/navigation_settings" />
+        <action
+            android:id="@+id/action_home_fragment_to_translate_fragment"
+            app:destination="@id/navigation_translate" />
     </fragment>
 
 
@@ -85,6 +88,14 @@
         <action
             android:id="@+id/action_settings_fragment_to_login_fragment"
             app:destination="@id/navigation_login" />
+    </fragment>
+
+    <!--    Translate Navigation    -->
+    <fragment
+        android:id="@+id/navigation_translate"
+        android:name="op.mobile.app.dev.mcdohr2.travelling.ui.translate.TranslateFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_translate">
     </fragment>
 
 </navigation>

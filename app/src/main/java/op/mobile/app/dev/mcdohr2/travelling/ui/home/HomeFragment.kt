@@ -34,6 +34,12 @@ class HomeFragment : Fragment(), IOnClickListener {
                     HomeFragmentDirections.actionHomeFragmentToSettingsFragment()
                 findNavController().navigate(action)
             }
+
+            btnTranslate.setOnClickListener {
+                val action =
+                    HomeFragmentDirections.actionHomeFragmentToTranslateFragment()
+                findNavController().navigate(action)
+            }
             return root
         }
     }
