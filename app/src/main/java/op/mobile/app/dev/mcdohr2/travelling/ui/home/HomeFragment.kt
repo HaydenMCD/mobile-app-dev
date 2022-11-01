@@ -4,17 +4,14 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import op.mobile.app.dev.mcdohr2.travelling.IOnClickListener
 import op.mobile.app.dev.mcdohr2.travelling.R
 import op.mobile.app.dev.mcdohr2.travelling.ServiceAdapter
 import op.mobile.app.dev.mcdohr2.travelling.databinding.FragmentHomeBinding
-// import op.mobile.app.dev.mcdohr2.travelling.ui.home.HomeFragmentDirections.*
 
 
 class HomeFragment : Fragment(), IOnClickListener {

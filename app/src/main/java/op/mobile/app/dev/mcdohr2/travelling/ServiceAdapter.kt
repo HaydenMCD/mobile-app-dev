@@ -3,17 +3,10 @@ package op.mobile.app.dev.mcdohr2.travelling
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import op.mobile.app.dev.mcdohr2.travelling.databinding.RecyclerViewItemBinding
-
-@BindingAdapter("list_data")
-fun bindListData(recyclerView: RecyclerView, data: List<Country>?) {
-    val adapter = recyclerView.adapter as ServiceAdapter
-    adapter.submitList(data)
-}
 
 class ServiceAdapter(private val listener: IOnClickListener) :
     ListAdapter<Country, ServiceAdapter.ServiceViewHolder>(DiffCallback) {

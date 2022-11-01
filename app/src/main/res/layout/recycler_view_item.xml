@@ -4,7 +4,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-
         <variable
             name="country"
             type="op.mobile.app.dev.mcdohr2.travelling.Country" />
@@ -27,28 +26,30 @@
 
             <ImageView
                 android:id="@+id/iv_flag"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:src="@{country.flagImg}"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                app:round_image="@{country.flagImg}"
                 app:layout_constraintTop_toTopOf="parent"
-                android:contentDescription="yada pic"
-            />
+                app:layout_constraintStart_toStartOf="parent"
+                android:contentDescription="@String/The countries flag"
+                />
 
             <TextView
                 android:id="@+id/tv_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
+                android:layout_marginStart="36dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:text="@{country.name}"
+                app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintEnd_toEndOf="parent" />
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
