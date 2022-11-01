@@ -33,6 +33,13 @@ class SettingsFragment : Fragment() {
         // Instantiating SettingsManager - passing in a context. For Fragments, we use requireContext()...for Activities, we use this
         val settingsManager = SettingsManager(requireContext())
         val btnLogout: Button = view.findViewById(R.id.btn_logout)
+        val btnBackHome: Button = view.findViewById(R.id.btn_back_home)
+
+        btnBackHome.setOnClickListener {
+            val action = SettingsFragmentDirections
+                .actionSettingsFragmentToHomeFragment()
+            view.findNavController().navigate(action)
+        }
 
         btnLogout.setOnClickListener {
             auth.signOut()
