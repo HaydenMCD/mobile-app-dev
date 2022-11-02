@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Travelling</string>
+
+    <string name="selected_item">Selected item:</string>
+
+<!--    <string-array name="LANGUAGES">-->
+<!--        <item>English</item>-->
+<!--        <item>Spanish</item>-->
+<!--        <item>Dutch</item>-->
+<!--        <item>Chinese</item>-->
+<!--        <item>afrikaans</item>-->
+<!--    </string-array>-->
 </resources>
