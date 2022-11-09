@@ -34,6 +34,55 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_header" />
 
+    <Button
+        android:id="@+id/btn_translate_to_ES"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="24dp"
+        android:text="Spanish"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_translation_text"
+        />
+
+    <Button
+        android:id="@+id/btn_translate_to_DU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:text="Dutch"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintStart_toEndOf="@+id/btn_translate_to_ES"
+        app:layout_constraintTop_toBottomOf="@+id/et_translation_text"
+        />
+
+    <Button
+        android:id="@+id/btn_translate_to_CH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="24dp"
+        android:text="Chinese"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_translate_to_ES"
+        />
+
+    <Button
+        android:id="@+id/btn_translate_to_AF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:text="Chinese"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintStart_toEndOf="@+id/btn_translate_to_CH"
+        app:layout_constraintTop_toBottomOf="@+id/btn_translate_to_ES"
+        />
+
+
     <ImageButton
         android:id="@+id/ibtn_text_to_speech"
         android:layout_width="wrap_content"
@@ -45,6 +94,39 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_translation_text"
         app:srcCompat="@drawable/ic_volume_up" />
+
+    <TextView
+        android:id="@+id/tv_translation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center"
+        android:text="Translated Text"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_translate_to_AF"/>
+
+    <EditText
+        android:id="@+id/et_translation_output"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_translation" />
+
 
 <!--    <Spinner-->
 <!--    android:id="@+id/spinner_languages"-->
