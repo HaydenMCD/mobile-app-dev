@@ -1,13 +1,16 @@
 package op.mobile.app.dev.mcdohr2.travelling.ui.map
 
+import android.content.res.Configuration
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import com.google.android.gms.maps.*
 import com.google.android.gms.maps.model.*
 import op.mobile.app.dev.mcdohr2.travelling.R
+
 
 /**
  * Class implements OnMapReadyCallback
@@ -77,6 +80,30 @@ class MapFragment : Fragment(), OnMapReadyCallback {
             attractions[0].location.longitude
         )
 
+        val nightModeFlags =
+            (context?.resources?.configuration?.uiMode)?.and(Configuration.UI_MODE_NIGHT_MASK)
+
+        when (nightModeFlags) {
+            Configuration.UI_MODE_NIGHT_YES -> {
+                googleMap.setMapStyle(
+                    context?.let {
+                        MapStyleOptions.loadRawResourceStyle(
+                            it, R.raw.style_dark
+                        )
+                    }
+                )
+            }
+            Configuration.UI_MODE_NIGHT_NO -> {
+                googleMap.setMapStyle(
+                    context?.let {
+                        MapStyleOptions.loadRawResourceStyle(
+                            it, R.raw.style_light
+                        )
+                    }
+                )
+            }
+            Configuration.UI_MODE_NIGHT_UNDEFINED -> {}
+        }
 
         /**
          * Set the Google Map's camera position to the first Attraction's
