@@ -35,6 +35,7 @@ class AttractionInfoWindow(context: Context) : GoogleMap.InfoWindowAdapter {
     override fun getInfoWindow(marker: Marker): View {
         val attraction: Attraction = marker.tag as Attraction
         binding.tvName.text = attraction.name
+        binding.tvCity.text = attraction.cityTown
         return binding.root
     }
 

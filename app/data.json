@@ -8,6 +8,7 @@
     "attractions": [
       {
         "name": "Blue Mountain National Park",
+        "cityTown": "National Park",
         "location": {
           "latitude": -33.6175635,
           "longitude": 150.4559073
@@ -15,6 +16,7 @@
       },
       {
         "name": "Daintree National Park",
+        "cityTown": "National Park",
         "location": {
           "latitude": -16.3014378,
           "longitude": 145.2480206
@@ -22,6 +24,7 @@
       },
       {
         "name": "Uluru-Kata Tjuta National Park",
+        "cityTown": "National Park",
         "location": {
           "latitude": -25.3437797,
           "longitude": 131.0346514
@@ -29,6 +32,7 @@
       },
       {
         "name": "Australia Zoo",
+        "cityTown": "Beerwah",
         "location": {
           "latitude": -26.8357181,
           "longitude": 152.963113
@@ -36,6 +40,7 @@
       },
       {
         "name": "Great Barrier Reef Marine Park",
+        "cityTown": "Townsville",
         "location": {
           "latitude": -19.2589635,
           "longitude": 146.8169483
@@ -58,7 +63,8 @@
     "flagImg": "https://flagpedia.net/data/flags/h80/ar.png",
     "attractions": [
       {
-        "name": "Iguaza Falls",
+        "name": "Iguazu Falls",
+        "cityTown": "Misiones province",
         "location": {
           "latitude": -25.695230,
           "longitude": -54.436718
@@ -66,6 +72,7 @@
       },
       {
         "name": "Salinas Grandes",
+        "cityTown": "Jujuy and Salta",
         "location": {
           "latitude": -23.716666,
           "longitude": -66.030833
@@ -73,6 +80,7 @@
       },
       {
         "name": "Perito Moreno Glacier",
+        "cityTown": "Los Glaciares National Park",
         "location": {
           "latitude": -50.471054,
           "longitude": -73.057396
@@ -80,6 +88,7 @@
       },
       {
         "name": "San Ignacio Mini",
+        "cityTown": "San Ignacio",
         "location": {
           "latitude": 17.152279,
           "longitude": -89.080025
@@ -87,6 +96,7 @@
       },
       {
         "name": "Cueva de las Manos",
+        "cityTown": "Santa Cruz",
         "location": {
           "latitude": -47.153166054,
           "longitude": -70.653164054
@@ -110,6 +120,7 @@
     "attractions": [
       {
         "name": "Antwerpen-Centraal Station",
+        "cityTown": "Antwerp",
         "location": {
           "latitude": 51.216944,
           "longitude": 4.421111
@@ -117,6 +128,7 @@
       },
       {
         "name": "Gravensteen",
+        "cityTown": "Ghent",
         "location": {
           "latitude": 51.05707,
           "longitude": 3.720756
@@ -124,6 +136,7 @@
       },
       {
         "name": "Grand-Place Of Brussels",
+        "cityTown": "Bruxelles",
         "location": {
           "latitude": 50.8467,
           "longitude": 4.3525
@@ -131,6 +144,7 @@
       },
       {
         "name": "Leuven Town Hall",
+        "cityTown": "Leuven",
         "location": {
           "latitude": 50.8789,
           "longitude": 4.7012
@@ -138,6 +152,7 @@
       },
       {
         "name": "Liège-Guillemins railway station",
+        "cityTown": "Liège",
         "location": {
           "latitude": 50.624,
           "longitude": 5.567
@@ -145,7 +160,7 @@
       }
     ],
     "phrases": [
-      "If you dont use your head, youll use your pocketbook.",
+      "If you don't use your head, you'll use your pocketbook.",
       "It is no use waiting for your ship to come in unless you have sent one out",
       "The word that is heard perishes, but the letter that is written remains.",
       "Honour is better than honors.",
@@ -161,13 +176,15 @@
     "attractions": [
       {
         "name": "Great Wall of China",
+        "cityTown": "Beijing",
         "location": {
           "latitude": 40.431908,
           "longitude": 116.570374
         }
       },
       {
-        "name": "Forgotten City",
+        "name": "Forbidden City",
+        "cityTown": "Beijing",
         "location": {
           "latitude": 39.908829698,
           "longitude": 116.387665116
@@ -175,6 +192,7 @@
       },
       {
         "name": "Tiananmen Square",
+        "cityTown": "Beijing",
         "location": {
           "latitude": 39.901996392,
           "longitude": 116.38833178
@@ -182,6 +200,7 @@
       },
       {
         "name": "Oriental Pearl TV Tower",
+        "cityTown": "Shanghai",
         "location": {
           "latitude": 31.239752,
           "longitude": 121.499588
@@ -189,6 +208,7 @@
       },
       {
         "name": "Emperor Qinshihuang's Mausoleum Site Museum",
+        "cityTown": "Xi'an",
         "location": {
           "latitude": 34.383736,
           "longitude": 109.276390
@@ -212,27 +232,31 @@
     "attractions": [
       {
         "name": "Monte Albán",
+        "cityTown": "Oaxaca",
         "location": {
           "latitude": 17.039666508,
           "longitude": -96.767330264
         }
       },
       {
-        "name": "Museo Nacional De Antropologia",
+        "name": "Chichén Itzá",
+        "cityTown": "Yucatán Peninsula",
         "location": {
-          "latitude": 40.407669,
-          "longitude": -3.688975
+          "latitude": 20.676403961,
+          "longitude": -88.5678543952
         }
       },
       {
         "name": "Sistema Dos Ojos",
+        "cityTown": "Tulum",
         "location": {
-          "latitude": 20.32469,
-          "longitude": -87.39199
+          "latitude": 20.32528449997822,
+          "longitude": -87.39129313519612
         }
       },
       {
         "name": "Ik Kil",
+        "cityTown": "Pisté",
         "location": {
           "latitude": 20.661636,
           "longitude": -88.549866
@@ -240,6 +264,7 @@
       },
       {
         "name": "Copper Canyon",
+        "cityTown": "Sierra Madre Occidental mountains",
         "location": {
           "latitude": 27.509664628,
           "longitude": -107.759496962
@@ -263,6 +288,7 @@
     "attractions": [
       {
         "name": "Mt Cook",
+        "cityTown": "Southern Alps",
         "location": {
           "latitude": -43.5907793035,
           "longitude": 170.137957782
@@ -270,6 +296,7 @@
       },
       {
         "name": "Sky Tower",
+        "cityTown": "Auckland",
         "location": {
           "latitude": -36.848450,
           "longitude": 174.762192
@@ -277,6 +304,7 @@
       },
       {
         "name": "Huka Falls",
+        "cityTown": "Waikato River",
         "location": {
           "latitude": -38.649497,
           "longitude": 176.089683
@@ -284,6 +312,7 @@
       },
       {
         "name": "Blue Pools",
+        "cityTown": "Makarora",
         "location": {
           "latitude": -44.1641,
           "longitude": 169.2768
@@ -291,6 +320,7 @@
       },
       {
         "name": "Tongariro Crossing",
+        "cityTown": "Tongariro National Park",
         "location": {
           "latitude": -39.2727,
           "longitude": 175.5802
@@ -314,6 +344,7 @@
     "attractions": [
       {
         "name": "The Castle of Good Hope",
+        "cityTown": "Cape Town",
         "location": {
           "latitude": -33.925868,
           "longitude": 18.427803
@@ -321,6 +352,7 @@
       },
       {
         "name": "Robben Island",
+        "cityTown": "Table Bay",
         "location": {
           "latitude": -33.806734,
           "longitude": 18.366222
@@ -328,6 +360,7 @@
       },
       {
         "name": "The Afrikaans Language Monument",
+        "cityTown": "Paarl",
         "location": {
           "latitude": -33.76576,
           "longitude": 18.94257
@@ -335,6 +368,7 @@
       },
       {
         "name": "Union Buildings",
+        "cityTown": "Pretoria",
         "location": {
           "latitude": -25.7376103829,
           "longitude": 28.2072125045
@@ -342,6 +376,7 @@
       },
       {
         "name": "Voortrekker Monument",
+        "cityTown": "Pretoria",
         "location": {
           "latitude": -25.77249691,
           "longitude": 28.172165978
@@ -365,6 +400,7 @@
     "attractions": [
       {
         "name": "London Eye",
+        "cityTown": "London",
         "location": {
           "latitude": 51.503399,
           "longitude": -0.119519
@@ -372,6 +408,7 @@
       },
       {
         "name": "Big Ben",
+        "cityTown": "London",
         "location": {
           "latitude": 51.510357,
           "longitude": -0.116773
@@ -379,6 +416,7 @@
       },
       {
         "name": "Seven Sisters Cliffs",
+        "cityTown": "East Sussex",
         "location": {
           "latitude": 50.76,
           "longitude": 0.16
@@ -386,6 +424,7 @@
       },
       {
         "name": "Warwick Castle",
+        "cityTown": "Warwick",
         "location": {
           "latitude": 52.279668,
           "longitude": -1.585228
@@ -393,6 +432,7 @@
       },
       {
         "name": "Stonehenge",
+        "cityTown": "Wiltshire",
         "location": {
           "latitude": 51.1739726374,
           "longitude": -1.82237671048
