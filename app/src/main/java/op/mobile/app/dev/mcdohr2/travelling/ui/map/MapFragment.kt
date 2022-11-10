@@ -5,13 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.google.android.gms.maps.CameraUpdateFactory
-import com.google.android.gms.maps.GoogleMap
-import com.google.android.gms.maps.OnMapReadyCallback
-import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.BitmapDescriptorFactory
-import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.MarkerOptions
+import com.google.android.gms.maps.*
+import com.google.android.gms.maps.model.*
 import op.mobile.app.dev.mcdohr2.travelling.R
 
 /**
@@ -81,6 +76,7 @@ class MapFragment : Fragment(), OnMapReadyCallback {
             attractions[0].location.latitude,
             attractions[0].location.longitude
         )
+
 
         /**
          * Set the Google Map's camera position to the first Attraction's
