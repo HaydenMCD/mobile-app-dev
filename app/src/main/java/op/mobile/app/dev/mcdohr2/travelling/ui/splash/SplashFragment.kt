@@ -10,7 +10,9 @@ import op.mobile.app.dev.mcdohr2.travelling.R
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 
-
+/**
+ * Displays an animation for 3 seconds before the login page is displayed
+ */
 class SplashFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater,

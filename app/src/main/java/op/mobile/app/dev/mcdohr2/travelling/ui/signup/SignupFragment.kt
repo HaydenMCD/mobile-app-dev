@@ -13,6 +13,12 @@ import com.google.firebase.auth.FirebaseAuth
 import op.mobile.app.dev.mcdohr2.travelling.R
 import android.util.Patterns.*
 
+/**
+ * This fragment handles sending the signup information to firebase and any validation.
+ *
+ * Once the input fields have been filled out with the signup information,
+ * The signup button can be tapped which sends the information to firebase and creates a new user.
+ */
 class SignupFragment: Fragment() {
     private lateinit var auth: FirebaseAuth
 
@@ -38,6 +44,9 @@ class SignupFragment: Fragment() {
             val password = etPassword.text.toString()
             val confirmPassword = etConfirmPassword.text.toString()
 
+            /**
+             * Validation for the input's
+             */
             when {
                 email.isEmpty() ->
                     etEmailAddress.error = "Email is required."
@@ -57,6 +66,9 @@ class SignupFragment: Fragment() {
             }
         }
 
+        /**
+         * Routes to the login fragment
+         */
         btnLogin.setOnClickListener {
             val action = SignupFragmentDirections
                 .actionSignupFragmentToLoginFragment()

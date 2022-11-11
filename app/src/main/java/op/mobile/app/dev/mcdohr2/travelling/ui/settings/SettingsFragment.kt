@@ -16,6 +16,9 @@ import kotlinx.coroutines.launch
 import op.mobile.app.dev.mcdohr2.travelling.R
 import op.mobile.app.dev.mcdohr2.travelling.UIMode
 
+/**
+ * This class handles all of the onClick events for the settings page.
+ */
 class SettingsFragment : Fragment() {
     private lateinit var swToggleDarkMode: SwitchCompat
     private lateinit var auth: FirebaseAuth
@@ -30,7 +33,9 @@ class SettingsFragment : Fragment() {
         val view: View = inflater.inflate(R.layout.fragment_settings, container, false)
         swToggleDarkMode = view.findViewById(R.id.sw_toggle_dark_mode)
 
-        // Instantiating SettingsManager - passing in a context. For Fragments, we use requireContext()...for Activities, we use this
+        /**
+         * Instantiating SettingsManager - passing in a context. For Fragments, we use requireContext()...for Activities, we use this
+         */
         val settingsManager = SettingsManager(requireContext())
         val btnLogout: Button = view.findViewById(R.id.btn_logout)
         val btnBackHome: Button = view.findViewById(R.id.btn_back_home)
@@ -41,6 +46,10 @@ class SettingsFragment : Fragment() {
             view.findNavController().navigate(action)
         }
 
+        /**
+         * When this button is pressed the user is logged out of firebase
+         * and routed back to the login page.
+         */
         btnLogout.setOnClickListener {
             auth.signOut()
 
@@ -67,6 +76,9 @@ class SettingsFragment : Fragment() {
         return view
     }
 
+    /**
+     * Checking if dark mode is enabled and setting the switch to the right position
+     */
     private fun setCheckedUIMode(uiMode: UIMode?) {
         when (uiMode) {
             UIMode.LIGHT -> {

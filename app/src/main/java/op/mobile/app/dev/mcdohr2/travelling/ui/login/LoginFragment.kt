@@ -14,6 +14,12 @@ import com.google.firebase.auth.FirebaseAuth
 import op.mobile.app.dev.mcdohr2.travelling.R
 import op.mobile.app.dev.mcdohr2.travelling.ui.login.LoginFragmentDirections.*
 
+/**
+ * This fragment handles sending the login information to firebase and any validation.
+ *
+ * Once the input fields have been filled out with the login information,
+ * The login button can be tapped which sends the information to firebase.
+ */
 class LoginFragment : Fragment() {
     private lateinit var auth: FirebaseAuth
 

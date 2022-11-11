@@ -13,7 +13,10 @@ import op.mobile.app.dev.mcdohr2.travelling.R
 import op.mobile.app.dev.mcdohr2.travelling.ServiceAdapter
 import op.mobile.app.dev.mcdohr2.travelling.databinding.FragmentHomeBinding
 
-
+/**
+ * Class displays the home fragment and handles the onClick event for routing to
+ * settings, translation and map fragments
+ */
 class HomeFragment : Fragment(), IOnClickListener {
     private lateinit var binding: FragmentHomeBinding
     override fun onCreateView(
@@ -44,6 +47,11 @@ class HomeFragment : Fragment(), IOnClickListener {
         }
     }
 
+    /**
+     * When a country is clicked this function is triggered.
+     *
+     * It routes to the map fragment with the location of each point of interest for that country.
+     */
     override fun onItemClick(position: Int) {
         val item = binding.homeViewModel!!.response.value!![position]
         val action =

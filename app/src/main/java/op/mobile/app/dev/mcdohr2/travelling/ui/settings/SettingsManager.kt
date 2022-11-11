@@ -10,10 +10,14 @@ import kotlinx.coroutines.flow.map
 import op.mobile.app.dev.mcdohr2.travelling.UIMode
 import java.io.IOException
 
-// We need a reference to the context, i.e., SettingsFragment. Note: you can use this class with an Activity
+/**
+ * We need a reference to the context, i.e., SettingsFragment.
+ */
 class SettingsManager(context: Context) {
 
-    // Create a new data store - it will store the mode as key/value pairs, i.e., is_dark_mode: 0 or is_dark_mode: 1
+    /**
+     * Create a new data store - it will store the mode as key/value pairs, i.e., is_dark_mode: 0 or is_dark_mode: 1
+     */
     private val dataStore: DataStore<Preferences> =
         context.applicationContext.createDataStore(DATA_STORE_NAME) // This constant is declared in a companion object at the bottom of this class
 
@@ -26,17 +30,20 @@ class SettingsManager(context: Context) {
             throw it
         }
     }.map {
-        // Elvis operator (?:)...shorthand ternary operator
-
-        // If the is_dark_mode value is 1, then UIMode is set to DARK...if is_dark_mode value is 0, then UIMode is set to LIGHT
-        // Remember, these UIMode values are set in the UIMode enum class
+        /**
+         * If the is_dark_mode value is 1, then UIMode is set to DARK...if is_dark_mode value is 0,
+         * then UIMode is set to LIGHT
+         */
         when (it[IS_DARK_MODE] ?: false) {
             true -> UIMode.DARK
             false -> UIMode.LIGHT
         }
     }
 
-    // While observing, set the UIMode that is checked, i.e., this value will be based on whether or not the Switch widget is checked
+    /**
+     * While observing, set the UIMode that is checked, i.e.,
+     * this value will be based on whether or not the Switch widget is checked
+     */
     suspend fun setUIMode(uiMode: UIMode) {
         dataStore.edit {
             it[IS_DARK_MODE] = when (uiMode) {
@@ -46,10 +53,13 @@ class SettingsManager(context: Context) {
         }
     }
 
-    // The companion object is used to access members of a class without creating
-    // an instance of a class. The companion object is only tied to this class. Also,
-    // you can relate a companion object to a static method. However, internally,
-    // they are very different.
+    /**
+     * The companion object is used to access members of a class without creating
+     * an instance of a class. The companion object is only tied to this class. Also,
+     * you can relate a companion object to a static method. However, internally,
+     * they are very different.
+     */
+
     companion object {
         private const val DATA_STORE_NAME = "settings.pref"
         private val IS_DARK_MODE = preferencesKey<Boolean>("is_dark_mode")

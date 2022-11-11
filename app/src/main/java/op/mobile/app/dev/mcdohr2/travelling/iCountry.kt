@@ -14,6 +14,10 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 
+/**
+ * This interface gathers the information from the api
+ * and returns the status.
+ */
 private const val BASE_URL = "https://gist.github.com/Hayden-McD/a1bfe0006d86446ef63775653e73f4bf/"
 
 interface ICountry {
@@ -40,6 +44,9 @@ enum class ServiceStatus {
     COMPLETE
 }
 
+/**
+ * Getting and setting the status of the api
+ */
 @SuppressLint("SetTextI18n")
 @BindingAdapter("service_status")
 fun bindServiceStatus(tvStatus: TextView, status: ServiceStatus?) {

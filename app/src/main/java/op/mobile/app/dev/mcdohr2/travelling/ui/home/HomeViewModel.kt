@@ -12,6 +12,11 @@ import op.mobile.app.dev.mcdohr2.travelling.Country
 import op.mobile.app.dev.mcdohr2.travelling.ServiceInstance.retrofitService
 import op.mobile.app.dev.mcdohr2.travelling.ServiceStatus
 
+/**
+ * This class handles the live data for the home fragment.
+ *
+ * The live data shows the status of the API data.
+ */
 class HomeViewModel : ViewModel() {
     private val _status = MutableLiveData<ServiceStatus>()
     val status: LiveData<ServiceStatus> get() = _status

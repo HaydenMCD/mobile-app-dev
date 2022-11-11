@@ -1,6 +1,5 @@
 package op.mobile.app.dev.mcdohr2.travelling.ui.translate
 
-import android.content.Context
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.text.Editable
@@ -17,6 +16,10 @@ import op.mobile.app.dev.mcdohr2.travelling.R
 import op.mobile.app.dev.mcdohr2.travelling.ui.yandex.YandexInstance.YandexRetrofitInstance
 import java.util.*
 
+/**
+ * This class handles all of the text to speech
+ * and text translation
+ */
 class TranslateFragment: Fragment() {
     lateinit var tts: TextToSpeech
     private val job = Job()
@@ -40,7 +43,7 @@ class TranslateFragment: Fragment() {
         btnTTS.isEnabled = false
 
         /***
-         * Enables/disables the button depending if there is text in the edit text or not *
+         * Enables/disables the button depending if there is text in the edit text or not.
          */
         etText.addTextChangedListener(object: TextWatcher {
             override fun onTextChanged(s:CharSequence, start:Int, before:Int, count:Int) {
@@ -62,6 +65,9 @@ class TranslateFragment: Fragment() {
             }
         })
 
+        /**
+         * When clicked the entered text will be said out loud.
+         */
         btnTTS.setOnClickListener{
             tts = TextToSpeech(context, TextToSpeech.OnInitListener {
                     if(it == TextToSpeech.SUCCESS){
@@ -72,6 +78,9 @@ class TranslateFragment: Fragment() {
             })
         }
 
+        /**
+         * Translation for spanish
+         */
         btnSpanish.setOnClickListener {
             val textInput = etText.text.toString()
             val language = "en-es"
@@ -92,6 +101,9 @@ class TranslateFragment: Fragment() {
             }
         }
 
+        /**
+         * Translation for Dutch
+         */
         btnDutch.setOnClickListener {
             val textInput = etText.text.toString()
             val language = "en-nl"
@@ -112,6 +124,9 @@ class TranslateFragment: Fragment() {
             }
         }
 
+        /**
+         * Translation for Chinese
+         */
         btnChinese.setOnClickListener {
             val textInput = etText.text.toString()
             val language = "en-zh"
@@ -132,6 +147,9 @@ class TranslateFragment: Fragment() {
             }
         }
 
+        /**
+         * Translation for Afrikaans
+         */
         btnAfrikaans.setOnClickListener {
             val textInput = etText.text.toString()
             val language = "en-af"
@@ -151,21 +169,12 @@ class TranslateFragment: Fragment() {
                 }
             }
         }
-
-//        val languages = resources.getStringArray(R.array.LANGUAGES)
-//
-//        val spinner: Spinner = view.findViewById(R.id.spinner_languages)
-//
-//        if (spinner != null) {
-//            val adapter = ArrayAdapter(
-//                this,
-//                android.R.layout.simple_spinner_item, languages
-//            )
-//            spinner.adapter = adapter
-//        }
         return view
     }
 
+    /**
+     * Destroys the instance and cancels any translation or tts jobs lined up
+     */
     override fun onDestroy() {
         super.onDestroy()
         job.cancel()
