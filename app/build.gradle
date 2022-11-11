@@ -5,10 +5,17 @@ plugins {
     id 'kotlin-kapt'
     id 'com.google.gms.google-services'
     id 'kotlin-parcelize'
+    id "org.jetbrains.dokka"
+}
+
+tasks.dokkaGfm.configure {
+    outputDirectory.set(file("../documentation/gfm"))
 }
 
 android {
     compileSdk 33
+
+
 
     defaultConfig {
         applicationId "op.mobile.app.dev.mcdohr2.travelling"

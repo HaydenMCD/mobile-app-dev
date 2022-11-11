@@ -1,0 +1,122 @@
+$dokka.format:gfm-v1
+$dokka.linkExtension:md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.model////PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.model/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.model/Attraction///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.model/-attraction/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.model/Attraction/Attraction/#kotlin.String#kotlin.String#op.mobile.app.dev.mcdohr2.travelling.model.Location/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.model/-attraction/-attraction.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.model/Attraction/cityTown/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.model/-attraction/city-town.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.model/Attraction/location/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.model/-attraction/location.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.model/Attraction/name/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.model/-attraction/name.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.model/Location///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.model/-location/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.model/Location/Location/#kotlin.Double#kotlin.Double/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.model/-location/-location.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.model/Location/latitude/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.model/-location/latitude.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.model/Location/longitude/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.model/-location/longitude.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.home////PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.home/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.home/HomeFragment///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.home/-home-fragment/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.home/HomeFragment/HomeFragment/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.home/-home-fragment/-home-fragment.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.home/HomeFragment/onCreateView/#android.view.LayoutInflater#android.view.ViewGroup?#android.os.Bundle?/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.home/-home-fragment/on-create-view.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.home/HomeFragment/onItemClick/#kotlin.Int/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.home/-home-fragment/on-item-click.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.home/HomeViewModel///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.home/-home-view-model/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.home/HomeViewModel/HomeViewModel/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.home/-home-view-model/-home-view-model.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.home/HomeViewModel/response/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.home/-home-view-model/response.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.home/HomeViewModel/status/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.home/-home-view-model/status.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.login////PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.login/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.login/LoginFragment///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.login/-login-fragment/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.login/LoginFragment/LoginFragment/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.login/-login-fragment/-login-fragment.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.login/LoginFragment/onCreateView/#android.view.LayoutInflater#android.view.ViewGroup?#android.os.Bundle?/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.login/-login-fragment/on-create-view.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.map////PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.map/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.map/AttractionInfoWindow///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.map/-attraction-info-window/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.map/AttractionInfoWindow/AttractionInfoWindow/#android.content.Context/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.map/-attraction-info-window/-attraction-info-window.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.map/AttractionInfoWindow/getInfoContents/#com.google.android.gms.maps.model.Marker/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.map/-attraction-info-window/get-info-contents.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.map/AttractionInfoWindow/getInfoWindow/#com.google.android.gms.maps.model.Marker/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.map/-attraction-info-window/get-info-window.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.map/MapFragment///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.map/-map-fragment/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.map/MapFragment/MapFragment/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.map/-map-fragment/-map-fragment.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.map/MapFragment/onCreateView/#android.view.LayoutInflater#android.view.ViewGroup?#android.os.Bundle?/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.map/-map-fragment/on-create-view.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.map/MapFragment/onMapReady/#com.google.android.gms.maps.GoogleMap/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.map/-map-fragment/on-map-ready.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.map/MapFragment/onViewCreated/#android.view.View#android.os.Bundle?/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.map/-map-fragment/on-view-created.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.settings////PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.settings/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.settings/SettingsFragment///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.settings/-settings-fragment/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.settings/SettingsFragment/SettingsFragment/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.settings/-settings-fragment/-settings-fragment.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.settings/SettingsFragment/onCreateView/#android.view.LayoutInflater#android.view.ViewGroup?#android.os.Bundle?/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.settings/-settings-fragment/on-create-view.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.settings/SettingsManager.Companion///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.settings/-settings-manager/-companion/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.settings/SettingsManager///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.settings/-settings-manager/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.settings/SettingsManager/SettingsManager/#android.content.Context/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.settings/-settings-manager/-settings-manager.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.settings/SettingsManager/setUIMode/#op.mobile.app.dev.mcdohr2.travelling.UIMode/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.settings/-settings-manager/set-u-i-mode.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.settings/SettingsManager/uiModeFlow/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.settings/-settings-manager/ui-mode-flow.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.signup////PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.signup/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.signup/SignupFragment///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.signup/-signup-fragment/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.signup/SignupFragment/SignupFragment/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.signup/-signup-fragment/-signup-fragment.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.signup/SignupFragment/onCreateView/#android.view.LayoutInflater#android.view.ViewGroup?#android.os.Bundle?/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.signup/-signup-fragment/on-create-view.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.splash////PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.splash/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.splash/SplashFragment///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.splash/-splash-fragment/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.splash/SplashFragment/SplashFragment/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.splash/-splash-fragment/-splash-fragment.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.splash/SplashFragment/onCreateView/#android.view.LayoutInflater#android.view.ViewGroup?#android.os.Bundle?/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.splash/-splash-fragment/on-create-view.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.translate////PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.translate/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.translate/TranslateFragment///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.translate/-translate-fragment/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.translate/TranslateFragment/TranslateFragment/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.translate/-translate-fragment/-translate-fragment.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.translate/TranslateFragment/onCreateView/#android.view.LayoutInflater#android.view.ViewGroup?#android.os.Bundle?/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.translate/-translate-fragment/on-create-view.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.translate/TranslateFragment/onDestroy/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.translate/-translate-fragment/on-destroy.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.translate/TranslateFragment/tts/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.translate/-translate-fragment/tts.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.yandex////PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.yandex/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.yandex/IYandex///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.yandex/-i-yandex/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.yandex/IYandex/getResponse/#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.yandex/-i-yandex/get-response.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.yandex/Yandex///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.yandex/-yandex/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.yandex/Yandex/Yandex/#kotlin.Int#kotlin.String#kotlin.collections.List[kotlin.String]/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.yandex/-yandex/-yandex.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.yandex/Yandex/code/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.yandex/-yandex/code.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.yandex/Yandex/lang/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.yandex/-yandex/lang.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.yandex/Yandex/text/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.yandex/-yandex/text.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.yandex/YandexInstance///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.yandex/-yandex-instance/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling.ui.yandex/YandexInstance/YandexRetrofitInstance/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling.ui.yandex/-yandex-instance/-yandex-retrofit-instance.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling////PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling//bindListData/#androidx.recyclerview.widget.RecyclerView#kotlin.collections.List[op.mobile.app.dev.mcdohr2.travelling.Country]?/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/bind-list-data.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling//bindServiceStatus/#android.widget.TextView#op.mobile.app.dev.mcdohr2.travelling.ServiceStatus?/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/bind-service-status.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling//setRoundImage/#android.widget.ImageView#kotlin.String/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/set-round-image.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/Country///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-country/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/Country/Country/#kotlin.String#kotlin.String#kotlin.collections.List[op.mobile.app.dev.mcdohr2.travelling.model.Attraction]#kotlin.String/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-country/-country.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/Country/attractions/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-country/attractions.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/Country/flagImg/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-country/flag-img.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/Country/id/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-country/id.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/Country/name/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-country/name.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ICountry///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-i-country/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ICountry/getResponse/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-i-country/get-response.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/IOnClickListener///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-i-on-click-listener/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/IOnClickListener/onItemClick/#kotlin.Int/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-i-on-click-listener/on-item-click.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/MainActivity///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-main-activity/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/MainActivity/MainActivity/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-main-activity/-main-activity.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceAdapter.DiffCallback///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-adapter/-diff-callback/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceAdapter.DiffCallback/areContentsTheSame/#op.mobile.app.dev.mcdohr2.travelling.Country#op.mobile.app.dev.mcdohr2.travelling.Country/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-adapter/-diff-callback/are-contents-the-same.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceAdapter.DiffCallback/areItemsTheSame/#op.mobile.app.dev.mcdohr2.travelling.Country#op.mobile.app.dev.mcdohr2.travelling.Country/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-adapter/-diff-callback/are-items-the-same.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceAdapter.ServiceViewHolder///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-adapter/-service-view-holder/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceAdapter.ServiceViewHolder/ServiceViewHolder/#[Error type: Unresolved type for RecyclerViewItemBinding]/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-adapter/-service-view-holder/-service-view-holder.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceAdapter.ServiceViewHolder/bind/#op.mobile.app.dev.mcdohr2.travelling.Country/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-adapter/-service-view-holder/bind.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceAdapter.ServiceViewHolder/onClick/#android.view.View/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-adapter/-service-view-holder/on-click.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceAdapter///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-adapter/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceAdapter/ServiceAdapter/#op.mobile.app.dev.mcdohr2.travelling.IOnClickListener/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-adapter/-service-adapter.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceAdapter/onBindViewHolder/#op.mobile.app.dev.mcdohr2.travelling.ServiceAdapter.ServiceViewHolder#kotlin.Int/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-adapter/on-bind-view-holder.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceAdapter/onCreateViewHolder/#android.view.ViewGroup#kotlin.Int/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-adapter/on-create-view-holder.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceInstance///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-instance/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceInstance/retrofitService/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-instance/retrofit-service.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceStatus.COMPLETE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}app/op.mobile.app.dev.mcdohr2.travelling/-service-status/-c-o-m-p-l-e-t-e/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceStatus.ERROR///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}app/op.mobile.app.dev.mcdohr2.travelling/-service-status/-e-r-r-o-r/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceStatus.LOADING///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}app/op.mobile.app.dev.mcdohr2.travelling/-service-status/-l-o-a-d-i-n-g/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceStatus///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-status/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceStatus/valueOf/#kotlin.String/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-status/value-of.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceStatus/values/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-status/values.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceViewHolder///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-view-holder/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceViewHolder/ServiceViewHolder/#[Error type: Unresolved type for RecyclerViewItemBinding]/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-view-holder/-service-view-holder.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/ServiceViewHolder/bind/#op.mobile.app.dev.mcdohr2.travelling.Country/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-service-view-holder/bind.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/UIMode.DARK///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}app/op.mobile.app.dev.mcdohr2.travelling/-u-i-mode/-d-a-r-k/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/UIMode.LIGHT///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}app/op.mobile.app.dev.mcdohr2.travelling/-u-i-mode/-l-i-g-h-t/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/UIMode///PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-u-i-mode/index.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/UIMode/valueOf/#kotlin.String/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-u-i-mode/value-of.md
+$dokka.location:op.mobile.app.dev.mcdohr2.travelling/UIMode/values/#/PointingToDeclaration/app/op.mobile.app.dev.mcdohr2.travelling/-u-i-mode/values.md
+op.mobile.app.dev.mcdohr2.travelling
+op.mobile.app.dev.mcdohr2.travelling.model
+op.mobile.app.dev.mcdohr2.travelling.ui.home
+op.mobile.app.dev.mcdohr2.travelling.ui.login
+op.mobile.app.dev.mcdohr2.travelling.ui.map
+op.mobile.app.dev.mcdohr2.travelling.ui.settings
+op.mobile.app.dev.mcdohr2.travelling.ui.signup
+op.mobile.app.dev.mcdohr2.travelling.ui.splash
+op.mobile.app.dev.mcdohr2.travelling.ui.translate
+op.mobile.app.dev.mcdohr2.travelling.ui.yandex
+
